@@ -1,0 +1,87 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*Barra de Navegacion*/
+.navbar{
+    padding:0.5rem ;
+    background-color: #19191a;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar .navbar-nav .nav-link{
+    color: aliceblue;
+}
+
+/*Hero*/
+.hero .hero-imagen-desarrollador{
+    width: 300px;
+    height: 300px;
+}
+.hero{
+    background-color: #bfd8d2;
+    padding-top: 20px;
+    
+}
+.hero-principal{
+    padding: 3rem;
+}
+
+/*sobre mí*/
+.about-me{
+    height: 500px;
+    padding: 10px;
+}
+.about-me .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/*Conocimientos*/
+.conocimientos {
+    background-color: #bfd8d2;
+    padding-bottom: 40px;
+}
+.conocimientos img{  
+    height: 90px;
+}
+
+
+.seccion-oscura{
+    color: white;
+    background-color: #031926;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Oswald Roboto';
+}
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (max-width:767px){
+    .navbar-brand{
+        display:none;
+    }
+}
+
+
+

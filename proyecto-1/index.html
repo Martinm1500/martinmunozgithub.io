@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <!--METADATOS-->
+        <meta charset="UTF-8">
+        <meta name="author" content="Martin Muñoz">
+        <meta name="description" content="Portafolio de desarrollo web de Martin Muñoz">
+        <meta name="Keyword" content="HTML, CSS, Bootstrap">
+        <meta name="viewport" content="width=device-width, inicial-scale=1">
+    
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>        
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap" rel="stylesheet">
+        
+        <!--Titulo-->
+        <title>Martin Muñoz | Desarrollo Front-end</title>
+    
+        <!--Favicon-->
+        <link rel="icon" href="imagenes/icono.png">
+    
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <!--Iconos Bootstrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+        <!--Css-->
+        <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+   <!--Barra de Navegacion-->
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-Toggler">
+        <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50px" alt="Logo de la página">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#seccion-conocimientos">Conocimientos</a>
+          </li>                    
+          <li class="nav-item">
+            <a class="nav-link" href="#seccion-contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Seccion Hero-->
+    <hr class="linea"/>
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+          <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/astronauta_programando.png" alt="Imagen de Martin Muñoz">
+          <h1>Hola, soy Martin Muñoz</h1>
+          <h2>Estoy aprendiendo desarrollo Front-end</h2>
+        </div>
+       
+     </section>
+     <hr class="linea"/>
+  <!--About me-->
+   <section id="sobre-mi" class="about-me seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Sobre mí</h2>
+      <p class="seccion-texto">Estudiante universitario y autodidacta. Enfocado en adquirir nuevas habilidades que me permiten crecer en el ámbito personal y profesional. Me gusta la dinámica de trabajo en equipo; de proponer ideas y crear soluciones. </p>
+      <hr class="linea"/>
+    </div>
+  
+   </section>
+      <!--Conocimientos-->
+   <hr class="linea"/>
+   <section id="seccion-conocimientos" class="conocimientos fondo-clarito">
+    <hr class="linea"/>
+    <h2 class="seccion-titulo">Conocimientos</h2>
+    <div class="contenedor">
+      <div class="badges-contenedor">        
+        <img  src="imagenes/logotipo-java.svg" alt="Image logotipo-java">
+        <img  src="imagenes/logotipo-maven.svg" alt="Image logotipo-maven">
+        <img  src="imagenes/logotipo-springboot.svg" alt="Image logotipo-SB">
+        
+      </div>
+      
+      <div class="badges-contenedor">
+        <img  src="imagenes/logotipo-html.svg" alt="Image logotipo-html">
+        <img  src="imagenes/logotipo-css.svg" alt="Image logotipo-css">
+        <img  src="imagenes/logotipo-git.svg" alt="Image logotipo-git">
+      </div>
+      
+    </div>
+   </section>
+   <hr class="linea"/>
+     <!--Contacto-->
+    <section id="seccion-contacto" class="contacto seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Contacto</h2>  
+         <hr class="linea"/>
+      </div>
+      <hr class="linea"/>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
